@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string-array name="menu_options">
+    	    <item>Home</item>
+    	    <item>Shopping</item>
+    	    <item>Category</item>
+    	    <item>Orçamento</item>
+    	    <item>Calendário</item>    	       	    
+    	</string-array>
+    	
+    	<string name="menu_img">
+    	    <item>@drawable/indicator</item>  	       	    
+    	</string>
+    
+</resources>

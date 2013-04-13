@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shopping"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingActivity" >
+
+    <EditText
+        android:id="@+id/add_description_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_description_hint" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/add_value_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_description_edit"
+        android:inputType="numberDecimal"
+        android:hint="@string/add_value_hint" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/add_date_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_value_edit"
+        android:inputType="date"
+        android:hint="@string/add_date_hint" />
+    
+    <Spinner
+        android:id="@+id/add_category_spinner"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/add_date_edit"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/add_shopping_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/add_category_spinner"
+        android:text="@string/add_category_button" />
+
+
+</RelativeLayout>
